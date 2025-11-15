@@ -85,6 +85,7 @@ body {
 .div-promo-texto p {
   color: black;
   line-height: 1.6;
+  font-family: "Schoolbell", cursive;
 }
 /*boton*/
 .div-promo-texto button {
@@ -129,6 +130,7 @@ body {
 .div-privi-texto p {
   color: black;
   line-height: 1.6;
+  font-family: "Schoolbell", cursive;
 }
 .div-privi-video {
   flex: 1;
