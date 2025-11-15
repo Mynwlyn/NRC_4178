@@ -65,6 +65,7 @@ body {
 .seccion-promo {
   padding: 3.75rem 1.25rem;
   background-color: white;
+  font-family: "Schoolbell", cursive;
 }
 .div-gral-promo {
   display: flex;
@@ -85,7 +86,8 @@ body {
   color: black;
   line-height: 1.6;
 }
-/boton/ .div-promo-texto button {
+/*boton*/
+.div-promo-texto button {
   margin-top: 1.25rem;
   padding: 0.625rem 1.25rem;
   background-color: orange;
@@ -106,6 +108,7 @@ body {
 .seccion-privi {
   padding: 3.75rem 1.25rem;
   background-color: white;
+  font-family: "Schoolbell", cursive;
 }
 
 .div-gral-privi {
