@@ -1,0 +1,228 @@
+body {
+  margin: 0rem;
+}
+
+.topheader {
+  position: false;
+  background-color: gray;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1.25rem;
+}
+
+.Syt {
+  position: relative;
+  background-color: purple;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-self: space-around;
+  padding: 0.313rem 1.25rem;
+}
+
+.Menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-horizontal li a {
+  text-decoration: none;
+  padding: 0.938rem 1.25rem;
+  color: blue;
+}
+
+.Menu-horizontal li a:hover {
+  color: green;
+}
+
+.Menu-Vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 12.5;
+  list-style: none;
+}
+
+.Menu-horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Vertical li a {
+  display: block;
+  color: white;
+}
+
+.Menu-Vertical li {
+  background-color: black;
+}
+
+/*SECCION PROMOCION*/
+.seccion-promo {
+  padding: 3.75rem 1.25rem;
+  background-color: white;
+}
+.div-gral-promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-promo-texto {
+  flex: 1;
+}
+.div-promo-texto h2 {
+  color: blue;
+  margin-bottom: 0.938rem;
+}
+.div-promo-texto p {
+  color: black;
+  line-height: 1.6;
+}
+/boton/ .div-promo-texto button {
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: orange;
+  color: black;
+  border: none;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
+
+.div-promo-img {
+  flex: 1;
+}
+.div-promo-img img {
+  width: 100%;
+  max-width: 31.25rem;
+}
+/*SECCION PRiVILEGIOS*/
+.seccion-privi {
+  padding: 3.75rem 1.25rem;
+  background-color: white;
+}
+
+.div-gral-privi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-privi-texto {
+  flex: 1;
+}
+.div-privi-texto h2 {
+  color: blue;
+  margin-bottom: 0.938rem;
+}
+.div-privi-texto p {
+  color: black;
+  line-height: 1.6;
+}
+.div-privi-video {
+  flex: 1;
+}
+
+.div-privi-video iframe {
+  width: 100%;
+  max-width: 100%;
+  max-width: 31.25rem;
+}
+
+/*Formulario*/
+.seccion-formulario {
+  background-color: #f4f0f8;
+  padding: 2.5rem;
+  border: none;
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.div-contenedor-formulario {
+  background-color: #ffffff;
+  padding: 1.875rem;
+  border: 0.063rem solid #dcdcdc;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 31.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.div-contenedor-formulario h2 {
+  color: #333;
+}
+.div-contenedor-formulario p {
+  color: #555;
+}
+
+.campo {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 1.25rem;
+  border: none;
+  border-radius: 0.313rem;
+}
+
+.Formulario label {
+  display: block;
+  color: #4a4a4a;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.Formulario input[type="text"],
+.Formulario select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 0.063 solid #cccccc;
+  border-radius: 0.313rem;
+  box-sizing: border-box;
+}
+
+.Formulario input[type="text"]:focus,
+.Formulario select:focus {
+  border-color: #7b68ee;
+  box-shadow: 0 0 0.313rem rgba(123, 104, 238, 0.3);
+  outline: none;
+}
+
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.lista-checkbox li,
+.lista-radio li {
+  margin-bottom: 0.5rem;
+}
+
+.Formulario button {
+  background-color: #7b68ee;
+  color: white;
+  border: none;
+  border-radius: 0.313rem;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.Formulario button:hover {
+  background-color: #5a48c0;
+}
