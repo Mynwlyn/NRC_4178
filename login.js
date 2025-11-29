@@ -4,7 +4,7 @@ function validarLogin(event) {
   event.preventDefault();
 
   // Clave estática para la demo
-  const CORREO = "miyaball@gmail";
+  const CORREO = "miyaball@gmail.com";
   const emailInput = document.getElementById("email").value;
   const CLAVE_SECRETA = "miyaball";
   const passwordInput = document.getElementById("password").value;
